@@ -8,7 +8,7 @@ namespace Week_6
         {
             Knight knight = new Knight("Sir Knight");
             Enemy enemy = new Enemy();
-
+    
             var kHealth = knight.Health;
             var eHealth = enemy.Health;
             var kStamina = knight.Stamina;
@@ -24,28 +24,27 @@ namespace Week_6
                 if (kHealth<0)
                 {
                     kHealth = 0;
-                    Console.WriteLine($"Enemy: {eHealth,10} --- Charachter: {kHealth,10}\nEnemy Stamina: {eStamina} --- Charachter Stamina: {kStamina}\n-------------------------------------------- ");
+                    Console.WriteLine($"{enemy.Name,5}: {eHealth,10} --- {knight.Name,5}: {kHealth,12}\nEnemy Stamina: {eStamina,3} --- Charachter Stamina: {kStamina,2}\n-------------------------------------------- ");
                 }
                 else if (eHealth< 0)
                 {
                     eHealth = 0;
-                    Console.WriteLine($"Enemy: {eHealth,10} --- Charachter: {kHealth,10}\nEnemy Stamina: {eStamina} --- Charachter Stamina: {kStamina}\n-------------------------------------------- ");
+                    Console.WriteLine($"{enemy.Name,5}: {eHealth,10} --- {knight.Name,5}: {kHealth,12}\nEnemy Stamina: {eStamina,3} --- Charachter Stamina: {kStamina,2}\n-------------------------------------------- ");
                 }
                 else
                 {
-                    Console.WriteLine($"Enemy: {eHealth,10} --- Charachter: {kHealth,10}\nEnemy Stamina: {eStamina} --- Charachter Stamina: {kStamina}\n-------------------------------------------- ");
+                    Console.WriteLine($"{enemy.Name,5}: {eHealth,10} --- {knight.Name,5}: {kHealth,12}\nEnemy Stamina: {eStamina,3} --- Charachter Stamina: {kStamina,2}\n-------------------------------------------- ");
                 }
                
             }
             if (eHealth > kHealth)
             {
-                Console.WriteLine(("mıssıon faıled").ToUpper());
+                Console.WriteLine(($"{enemy.Name} wın").ToUpper());
             }
             else
             {
-                Console.WriteLine(("mıssıon completed").ToUpper());
+                Console.WriteLine(($"{knight.Name} wın").ToUpper());
             }
-
         }
     }
 }

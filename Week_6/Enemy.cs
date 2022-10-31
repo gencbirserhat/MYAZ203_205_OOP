@@ -17,7 +17,7 @@ namespace Week_6
         public override string? Name
         {
             get => _name;
-            set => _name = "Ayça";
+            set => _name = value;
         }
         public override int Health
         {
@@ -38,6 +38,7 @@ namespace Week_6
 
         public Enemy()
         {
+            Name = "Thanos";
             Random damage = new Random();
             var RandomDamage = damage.Next(1, 21);
             Health = 100;

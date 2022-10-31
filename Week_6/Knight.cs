@@ -38,7 +38,7 @@ namespace Week_6
         {
             Random damage = new Random();
             var RandomDamage = damage.Next(1, 21);
-            Name = name;
+            Name = "Iron Man";
             Health = 100;
             Stamina = 100;
             Damage = RandomDamage;
