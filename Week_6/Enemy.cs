@@ -47,23 +47,23 @@ namespace Week_6
 
         public override void Attack(ref int EnemyHealth, ref int CurrentStamina)
         {
-            if (Stamina > 0)
+            if (CurrentStamina > 0)
             {
                 EnemyHealth = EnemyHealth - Damage;
 
-                CurrentStamina = CurrentStamina - 10;
+                CurrentStamina = CurrentStamina - 5;
             }
             else
             {
-                Wait();
+                Wait(ref CurrentStamina);
             }
         }
 
-        public override void Wait()
+        public override void Wait(ref int CurrentStamina)
         {
-            if (Stamina < 100)
+            while (CurrentStamina < 100)
             {
-                Stamina += 10;
+                CurrentStamina += 10;
             }
         }
     }

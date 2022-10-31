@@ -9,7 +9,7 @@
         public abstract int Damage { get; set; }
 
         public abstract void Attack(ref int EnemyHealth, ref int CurrentStamina);
-        public abstract void Wait();
+        public abstract void Wait(ref int CurrentStamina);
 
     }
 }

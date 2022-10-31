@@ -47,11 +47,11 @@ namespace Week_6
 
         public override void Attack(ref int EnemyHealth, ref int CurrentStamina)
         {
-            if (Stamina > 0)
+            if (CurrentStamina > 0)
             {
                 EnemyHealth = EnemyHealth - Damage;
 
-                CurrentStamina = CurrentStamina - 10;
+                CurrentStamina = CurrentStamina - 5;
 
 
 
@@ -59,15 +59,16 @@ namespace Week_6
             else
             {
                 Console.WriteLine("You are tired!");
-                Wait();
+                Wait(ref CurrentStamina);
             }
         }
 
-        public override void Wait()
+        public override void Wait(ref int CurrentStamina)
         {
-            if (Stamina < 100)
+            
+            while (CurrentStamina < 100)
             {
-                Stamina += 15;
+                CurrentStamina = CurrentStamina += 10;
             }
         }
     }

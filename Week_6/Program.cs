@@ -16,12 +16,26 @@ namespace Week_6
 
             Console.WriteLine($"***** First Enemy Stamina: {eStamina} --- First Charachter Stamina: {kStamina} *****\n");
 
-            while (kHealth > 0 && eHealth > 0)
+            while (kHealth > 0 && eHealth > 0  )
             {
+                
                 knight.Attack(ref eHealth, ref kStamina);
                 enemy.Attack(ref kHealth, ref eStamina);
-                Console.WriteLine($"Enemy: {eHealth,10} --- Charachter: {kHealth,10}\nEnemy Stamina: {eStamina} --- Charachter Stamina: {kStamina}\n-------------------------------------------- ");
-
+                if (kHealth<0)
+                {
+                    kHealth = 0;
+                    Console.WriteLine($"Enemy: {eHealth,10} --- Charachter: {kHealth,10}\nEnemy Stamina: {eStamina} --- Charachter Stamina: {kStamina}\n-------------------------------------------- ");
+                }
+                else if (eHealth< 0)
+                {
+                    eHealth = 0;
+                    Console.WriteLine($"Enemy: {eHealth,10} --- Charachter: {kHealth,10}\nEnemy Stamina: {eStamina} --- Charachter Stamina: {kStamina}\n-------------------------------------------- ");
+                }
+                else
+                {
+                    Console.WriteLine($"Enemy: {eHealth,10} --- Charachter: {kHealth,10}\nEnemy Stamina: {eStamina} --- Charachter Stamina: {kStamina}\n-------------------------------------------- ");
+                }
+               
             }
             if (eHealth > kHealth)
             {
