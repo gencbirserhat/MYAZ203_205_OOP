@@ -10,20 +10,20 @@ namespace Week_6
     public class Knight : Character
     {
         private string? _name;
-        private uint _health;
-        private uint _stamina;
+        private int _health;
+        private int _stamina;
         private int _damage;
         public override string? Name
         {
             get => _name;
             set => _name = value;
         }
-        public override uint Health
+        public override int Health
         {
             get => _health;
             set => _health = value;
         }
-        public override uint Stamina
+        public override int Stamina
         {
             get => _stamina;
             set => _stamina = value;
