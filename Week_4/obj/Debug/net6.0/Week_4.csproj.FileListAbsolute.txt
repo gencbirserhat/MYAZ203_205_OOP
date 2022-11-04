@@ -1,0 +1,15 @@
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\bin\Debug\net6.0\Week_4.exe
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\bin\Debug\net6.0\Week_4.deps.json
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\bin\Debug\net6.0\Week_4.runtimeconfig.json
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\bin\Debug\net6.0\Week_4.dll
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\bin\Debug\net6.0\Week_4.pdb
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.csproj.AssemblyReference.cache
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.AssemblyInfoInputs.cache
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.AssemblyInfo.cs
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.csproj.CoreCompileInputs.cache
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.dll
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\refint\Week_4.dll
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.pdb
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\Week_4.genruntimeconfig.cache
+C:\Users\Serhat\Documents\GitHub\MYAZ203_205_OOP\Week_4\obj\Debug\net6.0\ref\Week_4.dll
