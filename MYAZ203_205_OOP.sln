@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_4", "Week_4\Week_4.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_5", "Week_5\Week_5.csproj", "{33D40A61-C152-4317-9CD6-4AD8E7533B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_2_HomeWork", "Week_2_HomeWork\Week_2_HomeWork.csproj", "{34E22906-D789-45FE-8974-19FDB4AEF278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_2_HomeWork", "Week_2_HomeWork\Week_2_HomeWork.csproj", "{34E22906-D789-45FE-8974-19FDB4AEF278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_3_HomeWork", "Week_3_HomeWork\Week_3_HomeWork.csproj", "{9D5C144B-9D39-4D67-8A99-432C1DE22B8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_3_HomeWork", "Week_3_HomeWork\Week_3_HomeWork.csproj", "{9D5C144B-9D39-4D67-8A99-432C1DE22B8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_4_HomeWork", "Week_4_HomeWork", "{966FECCE-C9E0-40F8-8C6A-5E71A78FFC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_10", "Week_10\Week_10.csproj", "{95256302-1666-4C32-8EC9-16D828AF3097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{9D5C144B-9D39-4D67-8A99-432C1DE22B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D5C144B-9D39-4D67-8A99-432C1DE22B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D5C144B-9D39-4D67-8A99-432C1DE22B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95256302-1666-4C32-8EC9-16D828AF3097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95256302-1666-4C32-8EC9-16D828AF3097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95256302-1666-4C32-8EC9-16D828AF3097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95256302-1666-4C32-8EC9-16D828AF3097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
